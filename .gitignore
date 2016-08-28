@@ -1,3 +1,11 @@
 _site/
-.sass-cache/
+*.log
+*.lock
+.grunt
 .jekyll-metadata
+.sass-cache/
+.DS_Store
+Thumbs.db
+node_modules
+expected
+tmp
