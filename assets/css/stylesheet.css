@@ -56,9 +56,9 @@ a:hover {
 #logo {
   width: 190px;
   height: 64px;
-  margin: 15px 0 0 15px;
+  margin: 15px;
   text-indent: -99999px;
-  background: url("../img/hpe-logo.png") no-repeat; }
+  background: url("../img/hpe-logo.png") no-repeat center; }
 
 #logo h1 {
   margin: 0; }
