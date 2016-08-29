@@ -157,7 +157,7 @@ li.repo a:hover {
   color: #fff;
 }
 
-li.repo h2 a:hover {
+li.repo a:hover h2 {
   color: #fff;
 }
 
