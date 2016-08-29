@@ -6,24 +6,24 @@ html {
 body {
   font: 13px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4;
-  color: #333;
+  color: #425563;
   min-width: 960px;
 }
 
 h1 {
   font-weight: bold;
   font-size: 20px;
-  color: #333;
+  color: #425563;
 }
 
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #0084b4;
+  color: #01a982;
 }
 
 a:link, a:visited {
-  color: #0084b4;
+  color: #01a982;
   text-decoration: none;
 }
 
@@ -46,9 +46,9 @@ a:hover {
 #main, div.header, li.repo {
   background: white;
   background: rgba(255, 255, 255, 1);
-  -moz-box-shadow:    0 0 2px 1px #c6c9ca;
-  -webkit-box-shadow: 0 0 2px 1px #c6c9ca;
-  box-shadow:         0 0 2px 1px #c6c9ca;
+  -moz-box-shadow:    0 0 1px 1px #c6c9ca;
+  -webkit-box-shadow: 0 0 1px 1px #c6c9ca;
+  box-shadow:         0 0 1px 1px #c6c9ca;
   margin-bottom: 20px;
 }
 
@@ -93,7 +93,7 @@ div.header h1 {
 #num-repos, #num-members {
   font-size: 14px;
   font-weight: bold;
-  color: #0084b4;
+  color: #01a982;
   line-height: 15px;
 }
 
@@ -153,7 +153,8 @@ li.repo > a {
 }
 
 li.repo a:hover {
-  color: #666;
+  background-color: #425563;
+  color: #fff;
 }
 
 li.repo h2, li.repo h3, li.repo p {
@@ -187,7 +188,7 @@ li.repo h3 {
 }
 
 .repo.javascript:after {
-  border-right-color: #333;
+  border-right-color: #425563;
 }
 
 .repo.scala:after {
