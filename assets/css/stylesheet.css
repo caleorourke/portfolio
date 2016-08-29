@@ -38,9 +38,9 @@ a:hover {
   margin-bottom: 20px;
   background: white;
   background: rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0 0 1px 1px #c6c9ca;
-     -moz-box-shadow: 0 0 1px 1px #c6c9ca;
-          box-shadow: 0 0 1px 1px #c6c9ca; }
+  -webkit-box-shadow: 0 0 0 1px #c6c9ca;
+     -moz-box-shadow: 0 0 0 1px #c6c9ca;
+          box-shadow: 0 0 0 1px #c6c9ca; }
 
 #main h1 {
   margin: 30px 0; }
@@ -58,7 +58,7 @@ a:hover {
   height: 64px;
   margin: 15px 0 0 15px;
   text-indent: -99999px;
-  background: url("../img/hpe-logo.png"); }
+  background: url("../img/hpe-logo.png") no-repeat; }
 
 #logo h1 {
   margin: 0; }
