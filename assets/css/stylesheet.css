@@ -1,11 +1,12 @@
 html {
-  background: url("../img/bg.png") repeat;
+  background-color: #f6f6f6;
+  // background: url("../img/bg.png") repeat;
 }
 
 body {
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4;
-  color: #666;
+  color: #333;
   min-width: 960px;
 }
 
@@ -44,10 +45,10 @@ a:hover {
 
 #main, div.header, li.repo {
   background: white;
-  background: rgba(255, 255, 255, 0.7);
-  -moz-box-shadow:    0 0 5px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
-  box-shadow:         0 0 5px 1px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  -moz-box-shadow:    0 0 2px 1px #c6c9ca;
+  -webkit-box-shadow: 0 0 2px 1px #c6c9ca;
+  box-shadow:         0 0 2px 1px #c6c9ca;
   margin-bottom: 20px;
 }
 
@@ -152,8 +153,7 @@ li.repo > a {
 }
 
 li.repo a:hover {
-  background: #efefef;
-  background: rgba(0, 0, 0, 0.05);
+  color: #666;
 }
 
 li.repo h2, li.repo h3, li.repo p {
