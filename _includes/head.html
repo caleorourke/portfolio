@@ -2,22 +2,35 @@
 <meta charset="UFT-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Hyde Open Source</title>
+<title>{{site.org}} Open Source</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A listing of open source projects from Hyde.">
+<meta name="description" content="A listing of open source projects from {{site.org}}.">
 
-<link rel="stylesheet" href="assets/reset.css" media="screen">
-<link rel="stylesheet" href="assets/grid.css" media="screen">
-<link rel="stylesheet" href="assets/style.css" media="screen">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="assets/css/reset.css" media="screen">
+<link rel="stylesheet" href="assets/css/grid.css" media="screen">
+<link rel="stylesheet" href="assets/css/stylesheet.css" media="screen">
+
+<!-- Favicon -->
 <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
+<!-- Scripts -->
+<script type="text/javascript" src="assets/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="assets/js/strftime.js"></script>
+{% include scripts/analytics.html %}
+{% include scripts/callback.html %}
+
+  <!--[if lt IE 8]>
+    <p>You are using an <strong>outdated browser</strong>. Please use a different browser or <a href="http://browsehappy.com">upgrade your browser</a> to a newer version.</p>
+  <![endif]-->
+
+<!-- SEO -->
 <meta name="twitter:url" content="https://hyde.github.io">
 <meta name="twitter:creator" content="@HydeOSS">
 <meta name="twitter:site" content="@HydeOSS">
-<meta name="twitter:title" content="Hyde Open Source">
-<meta name="twitter:description" content="A listing of open source projects from Hyde.">
+<meta name="twitter:title" content="{{site.org}} Open Source">
+<meta name="twitter:description" content="A listing of open source projects from {{site.org}}.">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://g.twimg.com/eng/theme/eng-home-open-source.png">
-
-{% include scripts/tracking.html %}
+{% seo title=false %}

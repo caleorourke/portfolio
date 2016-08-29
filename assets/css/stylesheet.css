@@ -1,5 +1,5 @@
 html {
-  background: url("bg.png") repeat;
+  background: url("img/bg.png") repeat;
 }
 
 body {
@@ -253,13 +253,13 @@ li.repo h3 {
 
 @media screen and (max-width: 1000px) {
   body {
-    min-width: inherit;  
+    min-width: inherit;
   }
-  
+
   #wrapper {
     width: 95%;
   }
-  
+
   #main {
     width: 100%;
     display: inline-block;
@@ -268,22 +268,22 @@ li.repo h3 {
     padding-bottom: 20px;
     margin: 0 auto 20px;
   }
-  
+
   #logo {
     margin: 15px auto;
   }
-  
+
   .grid .grid-2 {
     width: 80%;
   }
-  
+
   .grid .grid-3 {
     width: 100%;
     margin-left: 0;
     display: flex;
     justify-content: space-between;
   }
-  
+
   #repos {
     display: flex;
     flex-direction: row;
@@ -291,7 +291,7 @@ li.repo h3 {
     justify-content: space-between;
     width: 100%;
   }
-  
+
   li.repo {
     width: 30%;
     margin-right: 0;
@@ -310,7 +310,7 @@ li.repo h3 {
   .grid .grid-3 {
     flex-direction: column;
   }
-  
+
   .grid .grid-1,
   .grid .grid-2 {
     width: 100%;
