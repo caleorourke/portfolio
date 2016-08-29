@@ -70,7 +70,7 @@ a:hover {
   width: 190px;
   height: 64px;
   margin: 15px 0 0 15px;
-  background: url("../img/logo.png");
+  background: url("../img/hpe-logo.png");
   text-indent: -99999px;
 }
 
@@ -154,6 +154,10 @@ li.repo > a {
 
 li.repo a:hover {
   background-color: #425563;
+  color: #fff;
+}
+
+li.repo h2 a:hover {
   color: #fff;
 }
 
