@@ -5,14 +5,14 @@
   margin-right: 10px;
   margin-left: 10px; }
 
-/* Grid >> Children (Alpha ~ First, Omega ~ Last) */
+/* Grid > Children */
 .alpha {
   margin-left: 0; }
 
 .omega {
   margin-right: 0; }
 
-/* Grid >> 4 Columns */
+/* Grid > 4 Columns */
 .grid .grid-1 {
   width: 220px; }
 
