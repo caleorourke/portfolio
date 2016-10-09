@@ -74,7 +74,7 @@
       repos = repos || [];
       page = page || 1;
 
-      var uri = "https://api.github.com/orgs/HewlettPackard/repos?callback=?"
+      var uri = "{{site.data.api.repos}}"
               + "&per_page=100"
               + "&page="+page;
 
@@ -91,8 +91,7 @@
             $.each(repos, function (i, repo) {
               repo.pushed_at = new Date(repo.pushed_at);
 
-              var weekHalfLife  = 1.146 * Math.pow(10, -9);
-
+              var weekHalfLife = 1.146 * Math.pow(10, -9);
               var pushDelta    = (new Date) - Date.parse(repo.pushed_at);
               var createdDelta = (new Date) - Date.parse(repo.created_at);
 
