@@ -74,7 +74,7 @@
       repos = repos || [];
       page = page || 1;
 
-      var uri = "{{site.data.orgs.gitrepos}}"
+      var uri = "https://api.github.com/orgs/HewlettPackard/members?callback=?"
               + "&per_page=100"
               + "&page="+page;
 
