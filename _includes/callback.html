@@ -2,7 +2,7 @@
   (function ($, undefined) {
 
     // Put custom repo URL's in this object
-    // Each repo is keyed by its name
+    // Each repo is keyed by name
     var repoUrls = {
       "twemoji": "http://twitter.github.io/twemoji/",
       "finagle": "http://twitter.github.io/finagle/",
@@ -30,7 +30,7 @@
     }
 
     // Put custom repo descriptions in this object
-    // Each repo is keyed by its name
+    // Each repo is keyed by name
     var repoDescriptions = {
       "naggati2": "A protocol builder for Netty using Scala 2.8"
     };
@@ -74,7 +74,7 @@
       repos = repos || [];
       page = page || 1;
 
-      var uri = "https://api.github.com/orgs/twitter/repos?callback=?"
+      var uri = "{{site.data.orgs.repos}}"
               + "&per_page=100"
               + "&page="+page;
 
