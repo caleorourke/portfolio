@@ -1,5 +1,2 @@
-- request: members
-  url: https://api.github.com/orgs/HewlettPackard/members?callback=?
-
-- request: repos
-  url: https://api.github.com/orgs/HewlettPackard/repos?callback=?
+- members: https://api.github.com/orgs/HewlettPackard/members?callback=?
+- repos: https://api.github.com/orgs/HewlettPackard/repos?callback=?
