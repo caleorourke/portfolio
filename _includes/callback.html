@@ -74,7 +74,7 @@
       repos = repos || [];
       page = page || 1;
 
-      var uri = "{{site.data.api.repos}}"
+      var uri = "https://api.github.com/orgs/HewlettPackard/repos?callback=?"
               + "&per_page=100"
               + "&page="+page;
 
@@ -129,11 +129,11 @@
     }
     addRepos();
 
-    //get total number of Twitter members
+    //get total number of org members
     function getNumMembers(page, numMembers) {
       var page = page || 1;
       var numMembers = numMembers || 0;
-      var membersUri = "https://api.github.com/orgs/twitter/members?callback=?"
+      var membersUri = "https://api.github.com/orgs/HewlettPackard/members?callback=?"
         + "&per_page=100"
         + "&page="+page;
 
