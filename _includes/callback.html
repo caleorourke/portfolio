@@ -74,7 +74,7 @@
       repos = repos || [];
       page = page || 1;
 
-      var uri = "https://api.github.com/orgs/HewlettPackard/repos?callback=?"
+      var uri = "https://api.github.com/orgs/MicroFocus/repos?callback=?"
               + "&per_page=100"
               + "&page="+page;
 
@@ -133,7 +133,7 @@
     function getNumMembers(page, numMembers) {
       var page = page || 1;
       var numMembers = numMembers || 0;
-      var membersUri = "https://api.github.com/orgs/HewlettPackard/members?callback=?"
+      var membersUri = "https://api.github.com/orgs/MicroFocus/members?callback=?"
         + "&per_page=100"
         + "&page="+page;
 
